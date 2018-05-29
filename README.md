@@ -1,2 +1,4 @@
-## Hasil
-![alt text](https://thumbs.gfycat.com/EmbellishedSoupyEquestrian-size_restricted.gif)
+## Isi
+
+1. login1 - Contoh pemanfaatan session untuk fungsi login
+2. login2 - Contoh login session dengan menggunakan database MySQL
