@@ -1,4 +1,11 @@
 <?php
+    include('login.php'); // Includes Login Script
+    
+    # If user still in session, redirect to profile.php instead of login again
+    if(isset($_SESSION['user'])){
+        header("location: profile.php");
+    }
+
     if(isset($_GET['pesan'])) {
         $mess = "<p> {$_GET['pesan']}</p>";
     } else {
