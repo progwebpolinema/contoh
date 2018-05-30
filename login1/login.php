@@ -3,7 +3,7 @@
     $error = '';
 
     if(isset($_POST["submit"])){
-        if(!empty($_POST["username"] || !empty($_POST["password"]))) {
+        if(!empty($_POST["username"]) || !empty($_POST["password"])) {
             $username = $_POST["username"];
             $password = $_POST["password"];
             # Manual check username dan password
